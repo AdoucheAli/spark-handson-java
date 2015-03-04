@@ -1,6 +1,8 @@
 package fr.devoxx.entity;
 
-public class PerformerDistributionByStyle {
+import java.io.Serializable;
+
+public class PerformerDistributionByStyle implements Serializable {
 
     private String type;
     private String style;
