@@ -12,7 +12,7 @@ public class Exercise1 {
     public static <R> void main(String[] args) {
         SparkConf conf = new SparkConf()
                 .setMaster("local[4]")
-                .setAppName("handson-1")
+                .setAppName("exercise-1")
                 .set("spark.cassandra.connection.host", "192.168.0.10");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
